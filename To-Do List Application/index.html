@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>📝 My To-Do List</h1>
+            <p>Organize your tasks and manage your day</p>
+        </div>
+
+        <!-- Add Task -->
+        <div class="task-input">
+            <input type="text" placeholder="Enter a new task...">
+            <button>Add Task</button>
+        </div>
+
+        <!-- Task List -->
+        <div class="task-list">
+
+            <div class="task">
+                <input type="checkbox">
+                <span>Complete web technology assignment</span>
+                <button class="delete">Delete</button>
+            </div>
+
+            <div class="task">
+                <input type="checkbox">
+                <span>Study HTML and CSS</span>
+                <button class="delete">Delete</button>
+            </div>
+
+            <div class="task completed">
+                <input type="checkbox" checked>
+                <span>Complete today's homework</span>
+                <button class="delete">Delete</button>
+            </div>
+
+            <div class="task">
+                <input type="checkbox">
+                <span>Prepare project presentation</span>
+                <button class="delete">Delete</button>
+            </div>
+
+        </div>
+
+        <!-- Task Summary -->
+        <div class="summary">
+            <p>Total Tasks: <strong>4</strong></p>
+            <p>Completed: <strong>1</strong></p>
+            <p>Pending: <strong>3</strong></p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 To-Do List Application</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
